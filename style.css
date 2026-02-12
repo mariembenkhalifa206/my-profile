@@ -1,0 +1,98 @@
+/* General */
+body {
+  background-color: #ffe6f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+/* Card Design */
+.card {
+  background: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Titles */
+h1 {
+  color: #ff4da6;
+  font-size: 28px;
+}
+
+h2 {
+  color: #e60073;
+  margin-bottom: 15px;
+}
+
+/* Image */
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ff99cc;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.btn-blue {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4da6;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #e60073;
+}
+
+/* Social icons */
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.list-inline i {
+  font-size: 30px;
+  color: #ff4da6;
+  transition: color 0.3s ease;
+}
+
+.list-inline i:hover {
+  color: #e60073;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
